@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- contact css -->
+  <link rel="stylesheet" href="./css/contactus.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>Contactus</title>
+</head>
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand" id="logo" href="/">Travel Tourism</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">  <!--ml-auto is for align the nav items right-->
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactus.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signin.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signup.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./weekend.html">Weekend Plans</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="h1" style="text-align: center;">Contact Us</h1>
+          <div class="form">
+            <div class="form-group">
+              <label for="">First Name</label>
+              <input id="input" class="form-control" type="text" required placeholder="Enter First Name">
+            </div>
+            <div class="form-group">
+              <label for="">Last Name</label>
+              <input id="input" class="form-control" type="text" required placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+              <label for="">Email</label>
+              <input id="input" class="form-control" type="email" required placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <label for="">Subject</label>
+              <input id="input" class="form-control" type="text" required placeholder="Enter Subject">
+            </div>
+            <div class="form-group">
+              <label for="">Description</label>
+              <textarea id="input1" class="form-control" required rows="3"></textarea>
+            </div>
+            <input id="bt"type="submit" onclick="validate()">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3" id="b_logo" >Travel Tourism</div>
+        <div class="col-md-9"></div>
+        <div class="col-md-3">© 2020 All rights reserved.</div>
+        <div class="col-md-9"> 
+          <p class="float-right"> Follow us on <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function validate(){
+      alert("Submitted Successfully");
+    }
+  </script>
+</body>
+</html>

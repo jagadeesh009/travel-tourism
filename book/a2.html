@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         
+         function abc() {
+            // alert("Welcome to the School of CSE")
+            var from=document.getElementById("from");
+            var fromVal = from.options[from.selectedIndex].value;
+            var to=document.getElementById("to");
+            var toVal = to.options[to.selectedIndex].value;
+            if(fromVal=="Tirupati"&&toVal=="Rajahmundry")
+            {
+               var val=document.querySelector("h1");
+               val.textContent="cost is 100";
+            }
+            if(fromVal=="Tirupati"&&toVal=="Amaravathi")
+            {
+               var val=document.querySelector("h1");
+               val.textContent="cost is 200";
+            }
+            if(fromVal=="Vizag"&&toVal=="Rajahmundry")
+            {
+               var val=document.querySelector("h1");
+               val.textContent="cost is 300";
+            }
+            if(fromVal=="Vizag"&&toVal=="Amaravathi")
+            {
+               var val=document.querySelector("h1");
+               val.textContent="cost is 400";
+            }
+         }      
+      </script>   
+   </head>
+   <body>
+      <form>
+         <select id="from">
+            <option value="none" selected disabled hidden>Select an option</option>
+            <option value="Tirupati">Tirupati</option>
+            <option value="Vizag">Vizag</option>
+         </select>
+         <select id="to">
+            <option value="none" selected disabled hidden>Select an option</option>
+            <option value="Rajahmundry">Rajahmundry</option>
+            <option value="Amaravathi">Amaravathi</option>
+         </select>
+         <input type="button" onclick="abc()" value="Test" />
+      </form>
+      <h1></h1>
+   </body>
+</html>

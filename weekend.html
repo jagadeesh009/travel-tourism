@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/weekend.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>weekend plans</title>
+</head>
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand" id="logo" href="/">Travel Tourism</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">  <!--ml-auto is for align the nav items right-->
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactus.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signin.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signup.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./weekend.html">Weekend Plans</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <div id="img">
+    <img src="https://images.pexels.com/photos/3178392/pexels-photo-3178392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" srcset="">
+    <div class="centered">
+      <h3>Let us plan you a perfect holiday</h3>
+      <form>
+        <div class="form-group">
+          <select class="form-control" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="none" selected disabled hidden>Select An Option</option>
+            <option value="./munnar.html">Munnar</option>
+            <option value="./alappuzha.html">Alappuzha</option>
+            <option value="./ooty.html">Ooty</option>
+            <option value="./hampi.html">Hampi</option>
+            <option value="./mysore.html">Mysore</option>
+            <option value="./madurai.html">Madurai</option>
+            <option value="./rameshwaram.html">Rameshwaram</option>
+            <option value="./tirupati.html">Tirupati</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section id="destinations">
+      <div class="container">
+          <h1 class="title text-center">Destinations</h1>
+          <div class="row" style="margin-top:15px;">
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4" style="">
+                <img src="https://images.pexels.com/photos/2968721/pexels-photo-2968721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4">
+                <img src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4">
+                <img src="https://images.pexels.com/photos/2994163/pexels-photo-2994163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">              
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4">
+                <img src="https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">              
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4">
+                <img src="https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">              
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadowHover mb-4">
+                <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">              
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+          <!-- col-md-offset-9 -->
+        <div class="col-md-3" id="b_logo" >Travel Tourism</div>
+        <div class="col-md-9"></div>
+        <div class="col-md-3">© 2020 All rights reserved.</div>
+        <div class="col-md-9"> 
+          <p class="float-right"> Follow us on <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
